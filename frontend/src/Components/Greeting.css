@@ -1,0 +1,15 @@
+.greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.greeting-message {
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
