@@ -34,30 +34,39 @@ https://drive.google.com/file/d/1ZBS-jJT5FKzYKA5lu0_8hnr-4eZc9Y7k/view?usp=drive
 | Mongoose       | ODM for MongoDB                 |
 | Axios          | HTTP client for API requests    |
 
----
+
 ## 📁 Folder Structure
 
 ```
 dynamic-greeting/
 │
-├── client/             # React frontend
+├── backend/                  # Backend - Express server
+│   ├── node_modules/
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/                 # Frontend - React (Vite)
+│   ├── node_modules/
 │   ├── public/
-│   │   └── images/     # Background images
-│   └── src/
-│       ├── Greeting.js
-│       ├── App.js
-│       └── Greeting.css
-├── config/             # MongoDB config
-│   └── db.js
-├── models/             # Mongoose model
-│   └── Greeting.js
-├── server.js           # Express server
-├── .env                # Environment variables
-└── README.md           # Project documentation
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── Components/
+│   │   │   ├── Greeting.css
+│   │   │   └── Greeting.jsx
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── vite.config.js
 ```
-
----
-
 ## 🧪 Local Setup
 
 ### 1. Clone the Repository
