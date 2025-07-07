@@ -8,7 +8,7 @@ Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), this pr
 
 ## 🖼️ Demo
 
-https://drive.google.com/file/d/1ZBS-jJT5FKzYKA5lu0_8hnr-4eZc9Y7k/view?usp=drive_link
+https://drive.google.com/file/d/1ZBS-jJT5FKzYKA5lu0_8hnr-4eZc9Y7k/view?usp=sharing
 
 ---
 
