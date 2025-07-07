@@ -8,8 +8,7 @@ Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), this pr
 
 ## 🖼️ Demo
 
-![Screenshot](client/public/images/morning.jpg)  
-*Replace with an actual screenshot of your running app if needed*
+https://drive.google.com/file/d/1ZBS-jJT5FKzYKA5lu0_8hnr-4eZc9Y7k/view?usp=drive_link
 
 ---
 
@@ -36,7 +35,6 @@ Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), this pr
 | Axios          | HTTP client for API requests    |
 
 ---
-
 ## 📁 Folder Structure
 
 dynamic-greeting/
@@ -65,38 +63,60 @@ dynamic-greeting/
 ```bash
 git clone https://github.com/your-username/dynamic-greeting.git
 cd dynamic-greeting
+```
 
 ### 2. Install Backend Dependencies
+```bash
 npm install
+```
 
-###3. Setup Environment Variables
-Create a .env file in the root:
-env
-MONGO_URI=your_mongodb_connection_string
+### 3. Setup Environment Variables  
+Create a `.env` file in the root:
+
+```env
+MONGO_URI=your_mongodb_connection_string  
 PORT=5000
+```
 
-###4. Install Frontend Dependencies
-cd client
+### 4. Install Frontend Dependencies
+```bash
+cd client  
 npm install
+```
 
-###5. Run in Development Mode
-###Backend:
+### 5. Run in Development Mode
+
+**Backend:**
+```bash
 npm run dev
-###Frontend (in another terminal):
-cd client
-npm start
+```
 
-###🏗️ Build and Run in Production
-cd client
+**Frontend (in another terminal):**
+```bash
+cd client  
+npm start
+```
+
+---
+
+### 🏗️ Build and Run in Production
+
+```bash
+cd client  
 npm run build
 
-cd ..
+cd ..  
 node server.js
+```
 
-###📸 Time-Based Greetings Logic
-Time Range	Greeting	Background Image
-12:00 AM - 5:59 AM	Good Night	night.jpg
-6:00 AM - 11:59 AM	Good Morning	morning.jpg
-12:00 PM - 5:59 PM	Good Afternoon	afternoon.jpg
-6:00 PM - 9:59 PM	Good Evening	evening.jpg
-10:00 PM - 11:59 PM	Good Night	night.jpg
+---
+
+### 📸 Time-Based Greetings Logic
+
+| Time Range           | Greeting        | Background Image |
+|----------------------|------------------|------------------|
+| 12:00 AM – 5:59 AM   | Good Night       | night.jpg        |
+| 6:00 AM – 11:59 AM   | Good Morning     | morning.jpg      |
+| 12:00 PM – 5:59 PM   | Good Afternoon   | afternoon.jpg    |
+| 6:00 PM – 9:59 PM    | Good Evening     | evening.jpg      |
+| 10:00 PM – 11:59 PM  | Good Night       | night.jpg        |
